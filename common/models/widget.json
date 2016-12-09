@@ -1,10 +1,13 @@
 {
-  "name": "person",
-  "plural": "people",
-  "base": "User",
+  "name": "widget",
+  "plural": "widgets",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
+  },
+  "mixins": {
+    "Auditz": true
   },
   "properties": {
     "name": {

@@ -17,5 +17,9 @@
   "person": {
     "dataSource": "db",
     "public": true
+  },
+  "widget": {
+    "dataSource": "db",
+    "public": true
   }
 }
