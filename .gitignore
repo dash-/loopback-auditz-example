@@ -1,0 +1,49 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Loopback
+*.csv
+*.dat
+*.iml
+*.xml
+.project
+.strong-pm
+lib-cov
+coverage
+.datastore
+
+# Dependencies
+node_modules
+
+# Testing
+coverage
+
+# Production
+build
+
+# Node.js
+*.seed
+*.log
+*.out
+*.pid
+npm-debug.log
+.node_history
+
+# OS / Editors
+*~
+*#
+.DS_Store
+.env
+.netbeans
+nbproject
+.idea
+*.swp
+*.swo
+*.sublime-*
+*.tgz
+yarn.lock
+
+# Local task files
+fixes
+renames
+todos
+
